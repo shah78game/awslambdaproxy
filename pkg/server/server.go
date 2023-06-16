@@ -25,7 +25,7 @@ const (
 	LambdaExecutionTimeoutBuffer = time.Second * 30
 
 	// LambdaMinExecutionFrequency is the minimum frequency for function execution.
-	LambdaMinExecutionFrequency = time.Second * 60
+	LambdaMinExecutionFrequency = time.Second * 1
 	// LambdaMaxExecutionFrequency is the maximum frequency for function execution.
 	// The current max execution time is 900 seconds, but this takes into account
 	// LambdaExecutionTimeoutBuffer + 10 seconds of leeway
